@@ -66,8 +66,8 @@ class Speedy
                 $message = $fault->getMessage();
             }
 
-            if (class_exists("\\Rolice\\Speedy\\Exceptions\\{$exception}")) {
-                $class = "\\Rolice\\Speedy\\Exceptions\\{$exception}";
+            if (class_exists("\\Gentor\\Speedy\\Exceptions\\{$exception}")) {
+                $class = "\\Gentor\\Speedy\\Exceptions\\{$exception}";
                 throw new $class($message);
             }
         }
