@@ -26,7 +26,6 @@ class SpeedyServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([__DIR__ . '/../config/speedy.php' => config_path('speedy.php')], 'config');
-        $this->publishes([__DIR__ . '/../database/migrations/' => database_path('migrations')], 'migrations');
 
         $this->mergeConfigFrom(__DIR__ . '/../config/speedy.php', 'speedy');
 
