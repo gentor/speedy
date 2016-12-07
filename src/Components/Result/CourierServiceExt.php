@@ -1,13 +1,13 @@
 <?php
-namespace Rolice\Speedy\Components\Result;
+namespace Gentor\Speedy\Components\Result;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use Rolice\Speedy\Components\ComplementaryServiceAllowance;
-use Rolice\Speedy\Components\ComponentInterface;
-use Rolice\Speedy\Exceptions\SpeedyException;
-use Rolice\Speedy\Traits\Serializable;
-use Rolice\Speedy\Traits\Timer;
+use Gentor\Speedy\Components\ComplementaryServiceAllowance;
+use Gentor\Speedy\Components\ComponentInterface;
+use Gentor\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Traits\Serializable;
+use Gentor\Speedy\Traits\Timer;
 
 class CourierServiceExt implements ComponentInterface
 {

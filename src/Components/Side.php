@@ -1,9 +1,9 @@
 <?php
-namespace Rolice\Speedy\Components;
+namespace Gentor\Speedy\Components;
 
 use Illuminate\Support\Collection;
-use Rolice\Speedy\Components\Param\Address;
-use Rolice\Speedy\Traits\Serializable;
+use Gentor\Speedy\Components\Param\Address;
+use Gentor\Speedy\Traits\Serializable;
 
 class Side implements ComponentInterface
 {

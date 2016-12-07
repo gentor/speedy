@@ -1,5 +1,5 @@
 <?php
-namespace Rolice\Speedy\Traits;
+namespace Gentor\Speedy\Traits;
 
 use Carbon\Carbon;
 use DateInterval;

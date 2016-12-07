@@ -1,13 +1,13 @@
 <?php
-namespace Rolice\Speedy\Components\Result;
+namespace Gentor\Speedy\Components\Result;
 
 use Illuminate\Support\Collection;
-use Rolice\Speedy\Components\ComponentInterface;
-use Rolice\Speedy\Components\ExactWorkTime;
-use Rolice\Speedy\Components\Size;
-use Rolice\Speedy\Components\WorkingTime;
-use Rolice\Speedy\Exceptions\SpeedyException;
-use Rolice\Speedy\Traits\Serializable;
+use Gentor\Speedy\Components\ComponentInterface;
+use Gentor\Speedy\Components\ExactWorkTime;
+use Gentor\Speedy\Components\Size;
+use Gentor\Speedy\Components\WorkingTime;
+use Gentor\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Traits\Serializable;
 
 class OfficeEx implements ComponentInterface
 {

@@ -1,16 +1,16 @@
 <?php
-namespace Rolice\Speedy\Traits;
+namespace Gentor\Speedy\Traits;
 
 use Illuminate\Support\Collection;
 use ReflectionClass;
-use Rolice\Speedy\Components\ComponentInterface;
-use Rolice\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Components\ComponentInterface;
+use Gentor\Speedy\Exceptions\SpeedyException;
 use SimpleXMLElement;
 
 /**
  * Class Serializable
  * Trait providing, common, basic, uni-purpose serialization of ComponentInterface object to XML
- * @package Rolice\Speedy\Components
+ * @package Gentor\Speedy\Components
  * @verion 1.0
  */
 trait Serializable

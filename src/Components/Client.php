@@ -1,10 +1,10 @@
 <?php
-namespace Rolice\Speedy\Components;
+namespace Gentor\Speedy\Components;
 
 use Carbon\Carbon;
 use JsonSerializable;
-use Rolice\Speedy\Exceptions\InvalidSessionException;
-use Rolice\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Exceptions\InvalidSessionException;
+use Gentor\Speedy\Exceptions\SpeedyException;
 use Exception;
 
 class Client implements JsonSerializable

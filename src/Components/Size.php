@@ -1,8 +1,8 @@
 <?php
-namespace Rolice\Speedy\Components;
+namespace Gentor\Speedy\Components;
 
-use Rolice\Speedy\Exceptions\SpeedyException;
-use Rolice\Speedy\Traits\Serializable;
+use Gentor\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Traits\Serializable;
 
 class Size implements ComponentInterface
 {

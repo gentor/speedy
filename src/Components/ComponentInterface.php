@@ -1,12 +1,12 @@
 <?php
-namespace Rolice\Speedy\Components;
+namespace Gentor\Speedy\Components;
 
 use SimpleXMLElement;
 
 /**
  * Interface ComponentInterface
  * Defines serialization mechanisms for communication with Speedy end-points
- * @package Rolice\Speedy\Components
+ * @package Gentor\Speedy\Components
  * @version 1.0
  */
 interface ComponentInterface

@@ -1,5 +1,5 @@
 <?php
-namespace Rolice\Speedy\Http\Controllers;
+namespace Gentor\Speedy\Http\Controllers;
 
 use Illuminate\Support\Facades\Lang;
 

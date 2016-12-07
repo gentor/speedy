@@ -1,10 +1,10 @@
 <?php
-namespace Rolice\Speedy\Components\Param;
+namespace Gentor\Speedy\Components\Param;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Rolice\Speedy\Components\ComponentInterface;
-use Rolice\Speedy\Traits\Serializable;
+use Gentor\Speedy\Components\ComponentInterface;
+use Gentor\Speedy\Traits\Serializable;
 
 class Pdf implements ComponentInterface
 {

@@ -1,18 +1,18 @@
 <?php
-namespace Rolice\Speedy\Components\Result;
+namespace Gentor\Speedy\Components\Result;
 
-use Rolice\Speedy\Components\AddrNomen;
-use Rolice\Speedy\Components\ComponentInterface;
-use Rolice\Speedy\Components\Param\FilterSite;
-use Rolice\Speedy\Components\Param\Language;
-use Rolice\Speedy\Exceptions\SpeedyException;
-use Rolice\Speedy\Speedy;
-use Rolice\Speedy\Traits\Serializable;
+use Gentor\Speedy\Components\AddrNomen;
+use Gentor\Speedy\Components\ComponentInterface;
+use Gentor\Speedy\Components\Param\FilterSite;
+use Gentor\Speedy\Components\Param\Language;
+use Gentor\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Speedy;
+use Gentor\Speedy\Traits\Serializable;
 
 /**
  * Class Site
  * @property string formatted
- * @package Rolice\Speedy\Components
+ * @package Gentor\Speedy\Components
  */
 class Site implements ComponentInterface
 {

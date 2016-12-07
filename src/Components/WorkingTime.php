@@ -1,9 +1,9 @@
 <?php
-namespace Rolice\Speedy\Components;
+namespace Gentor\Speedy\Components;
 
 use DateInterval;
-use Rolice\Speedy\Exceptions\SpeedyException;
-use Rolice\Speedy\Traits\Timer;
+use Gentor\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Traits\Timer;
 
 class WorkingTime
 {

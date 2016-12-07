@@ -1,5 +1,5 @@
 <?php
-namespace Rolice\Speedy\Exceptions;
+namespace Gentor\Speedy\Exceptions;
 
 class InvalidSessionException extends SpeedyException
 {

@@ -1,16 +1,16 @@
 <?php
-namespace Rolice\Speedy\Components\Param;
+namespace Gentor\Speedy\Components\Param;
 
 use Carbon\Carbon;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Rolice\Speedy\Components\ComponentInterface;
-use Rolice\Speedy\Components\FixedDiscountCardId;
-use Rolice\Speedy\Components\Result\CourierService;
-use Rolice\Speedy\Components\Size;
-use Rolice\Speedy\Exceptions\SpeedyException;
-use Rolice\Speedy\Speedy;
-use Rolice\Speedy\Traits\Serializable;
+use Gentor\Speedy\Components\ComponentInterface;
+use Gentor\Speedy\Components\FixedDiscountCardId;
+use Gentor\Speedy\Components\Result\CourierService;
+use Gentor\Speedy\Components\Size;
+use Gentor\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Speedy;
+use Gentor\Speedy\Traits\Serializable;
 
 class Picking implements ComponentInterface
 {

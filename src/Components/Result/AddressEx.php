@@ -1,9 +1,9 @@
 <?php
-namespace Rolice\Speedy\Components\Result;
+namespace Gentor\Speedy\Components\Result;
 
-use Rolice\Speedy\Components\ComponentInterface;
-use Rolice\Speedy\Exceptions\SpeedyException;
-use Rolice\Speedy\Traits\Serializable;
+use Gentor\Speedy\Components\ComponentInterface;
+use Gentor\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Traits\Serializable;
 
 class AddressEx implements ComponentInterface
 {

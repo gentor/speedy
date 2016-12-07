@@ -1,9 +1,9 @@
 <?php
-namespace Rolice\Speedy\Components\Param;
+namespace Gentor\Speedy\Components\Param;
 
-use Rolice\Speedy\Components\ComponentInterface;
-use Rolice\Speedy\Components\Size;
-use Rolice\Speedy\Traits\Serializable;
+use Gentor\Speedy\Components\ComponentInterface;
+use Gentor\Speedy\Components\Size;
+use Gentor\Speedy\Traits\Serializable;
 
 class ParcelInfo implements ComponentInterface
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Rolice\Speedy\Components\Param;
+namespace Gentor\Speedy\Components\Param;
 
 
 class Language

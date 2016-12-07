@@ -1,18 +1,18 @@
 <?php
-namespace Rolice\Speedy;
+namespace Gentor\Speedy;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Config;
-use Rolice\Speedy\Components\Client;
-use Rolice\Speedy\Components\ComponentInterface;
-use Rolice\Speedy\Components\Param\Calculation;
-use Rolice\Speedy\Components\PAram\FilterSite;
-use Rolice\Speedy\Components\Param\Language;
-use Rolice\Speedy\Components\Param\Pdf;
-use Rolice\Speedy\Components\Param\Picking;
-use Rolice\Speedy\Exceptions\InvalidUsernameOrPasswordException;
-use Rolice\Speedy\Exceptions\NoUserPermissionsException;
-use Rolice\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Components\Client;
+use Gentor\Speedy\Components\ComponentInterface;
+use Gentor\Speedy\Components\Param\Calculation;
+use Gentor\Speedy\Components\PAram\FilterSite;
+use Gentor\Speedy\Components\Param\Language;
+use Gentor\Speedy\Components\Param\Pdf;
+use Gentor\Speedy\Components\Param\Picking;
+use Gentor\Speedy\Exceptions\InvalidUsernameOrPasswordException;
+use Gentor\Speedy\Exceptions\NoUserPermissionsException;
+use Gentor\Speedy\Exceptions\SpeedyException;
 use SoapClient;
 use SoapFault;
 

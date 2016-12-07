@@ -1,17 +1,17 @@
 <?php
-namespace Rolice\Speedy\Http\Controllers;
+namespace Gentor\Speedy\Http\Controllers;
 
-use Rolice\Speedy\Components\Client;
-use Rolice\Speedy\Components\Param\Calculation;
-use Rolice\Speedy\Components\Param\Pdf;
-use Rolice\Speedy\Components\Param\Picking;
-use Rolice\Speedy\Components\Result\BOL;
-use Rolice\Speedy\Components\Result\Calculation as Result;
-use Rolice\Speedy\Exceptions\SpeedyException;
-use Rolice\Speedy\Http\Requests\CalculateRequest;
-use Rolice\Speedy\Http\Requests\PdfRequest;
-use Rolice\Speedy\Http\Requests\WaybillRequest;
-use Rolice\Speedy\Speedy;
+use Gentor\Speedy\Components\Client;
+use Gentor\Speedy\Components\Param\Calculation;
+use Gentor\Speedy\Components\Param\Pdf;
+use Gentor\Speedy\Components\Param\Picking;
+use Gentor\Speedy\Components\Result\BOL;
+use Gentor\Speedy\Components\Result\Calculation as Result;
+use Gentor\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Http\Requests\CalculateRequest;
+use Gentor\Speedy\Http\Requests\PdfRequest;
+use Gentor\Speedy\Http\Requests\WaybillRequest;
+use Gentor\Speedy\Speedy;
 
 class WaybillController extends Controller
 {

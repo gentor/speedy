@@ -1,14 +1,14 @@
 <?php
-namespace Rolice\Speedy\Http\Controllers;
+namespace Gentor\Speedy\Http\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
-use Rolice\Speedy\Components\Client;
-use Rolice\Speedy\Components\Param\Language;
-use Rolice\Speedy\Components\Result\CourierService;
-use Rolice\Speedy\Components\Result\CourierServiceExt;
-use Rolice\Speedy\Exceptions\SpeedyException;
-use Rolice\Speedy\Speedy;
+use Gentor\Speedy\Components\Client;
+use Gentor\Speedy\Components\Param\Language;
+use Gentor\Speedy\Components\Result\CourierService;
+use Gentor\Speedy\Components\Result\CourierServiceExt;
+use Gentor\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Speedy;
 
 class ServicesController extends Controller
 {

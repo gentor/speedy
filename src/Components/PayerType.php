@@ -1,7 +1,7 @@
 <?php
-namespace Rolice\Speedy\Components;
+namespace Gentor\Speedy\Components;
 
-use Rolice\Speedy\Traits\Enum;
+use Gentor\Speedy\Traits\Enum;
 
 class PayerType
 {

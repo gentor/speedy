@@ -1,14 +1,14 @@
 <?php
-namespace Rolice\Speedy\Http\Controllers;
+namespace Gentor\Speedy\Http\Controllers;
 
 use App;
 use Input;
-use Rolice\Speedy\Components\Client;
-use Rolice\Speedy\Components\Param\FilterSite;
-use Rolice\Speedy\Components\Param\Language;
-use Rolice\Speedy\Components\Result\SiteEx;
-use Rolice\Speedy\Exceptions\SpeedyException;
-use Rolice\Speedy\Speedy;
+use Gentor\Speedy\Components\Client;
+use Gentor\Speedy\Components\Param\FilterSite;
+use Gentor\Speedy\Components\Param\Language;
+use Gentor\Speedy\Components\Result\SiteEx;
+use Gentor\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Speedy;
 
 class SettlementController extends Controller
 {

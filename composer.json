@@ -1,14 +1,22 @@
 {
-  "name": "rolice/speedy",
+  "name": "gentor/speedy",
   "description": "Composer package for local courier service provider - Speedy.",
   "type": "library",
-  "version": "1.0",
+  "version": "1.0.2",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
       "name": "Lyubomir Gardev",
       "email": "rolice@intellisys.info"
+    },
+    {
+      "name": "Evgeni Nurkov",
+      "email": "evgeni.nurkov@gmail.com"
+    },
+    {
+      "name": "Georgi Nachev",
+      "email": "jooorooo@gmail.com"
     }
   ],
   "require": {
@@ -23,16 +31,16 @@
   },
   "autoload": {
     "psr-4": {
-      "Rolice\\Speedy\\": "src",
-      "Rolice\\Speedy\\Models\\": "src/Models/",
-      "Rolice\\Speedy\\Commands\\": "src/Commands/",
-      "Rolice\\Speedy\\Components\\": "src/Components/",
-      "Rolice\\Speedy\\Exceptions\\": "src/Exceptions/"
+      "Gentor\\Speedy\\": "src",
+      "Gentor\\Speedy\\Models\\": "src/Models/",
+      "Gentor\\Speedy\\Commands\\": "src/Commands/",
+      "Gentor\\Speedy\\Components\\": "src/Components/",
+      "Gentor\\Speedy\\Exceptions\\": "src/Exceptions/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Rolice\\Speedy\\Test\\": "tests/"
+      "Gentor\\Speedy\\Test\\": "tests/"
     }
   }
 }

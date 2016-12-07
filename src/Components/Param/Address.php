@@ -1,10 +1,10 @@
 <?php
-namespace Rolice\Speedy\Components\Param;
+namespace Gentor\Speedy\Components\Param;
 
-use Rolice\Speedy\Components\ComponentInterface;
-use Rolice\Speedy\Components\Result\Site;
-use Rolice\Speedy\Exceptions\SpeedyException;
-use Rolice\Speedy\Traits\Serializable;
+use Gentor\Speedy\Components\ComponentInterface;
+use Gentor\Speedy\Components\Result\Site;
+use Gentor\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Traits\Serializable;
 
 class Address implements ComponentInterface
 {

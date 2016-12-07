@@ -1,8 +1,8 @@
 <?php
-namespace Rolice\Speedy\Http\Controllers;
+namespace Gentor\Speedy\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Rolice\Speedy\Speedy;
+use Gentor\Speedy\Speedy;
 
 class SpeedyController extends Controller
 {

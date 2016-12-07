@@ -1,11 +1,11 @@
 <?php
-namespace Rolice\Speedy\Components;
+namespace Gentor\Speedy\Components;
 
 use Carbon\Carbon;
 use DateInterval;
 use Illuminate\Support\Collection;
-use Rolice\Speedy\Exceptions\SpeedyException;
-use Rolice\Speedy\Traits\Timer;
+use Gentor\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Traits\Timer;
 
 class ExactWorkTime
 {

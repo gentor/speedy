@@ -1,5 +1,5 @@
 <?php
-namespace Rolice\Speedy\Http\Requests;
+namespace Gentor\Speedy\Http\Requests;
 
 use App\Http\Requests\Request;
 use Input;

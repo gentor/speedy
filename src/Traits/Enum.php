@@ -1,8 +1,8 @@
 <?php
-namespace Rolice\Speedy\Traits;
+namespace Gentor\Speedy\Traits;
 
 use ReflectionClass;
-use Rolice\Speedy\Exceptions\SpeedyException;
+use Gentor\Speedy\Exceptions\SpeedyException;
 
 trait Enum
 {

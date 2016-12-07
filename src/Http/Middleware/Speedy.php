@@ -1,5 +1,5 @@
 <?php
-namespace Rolice\Speedy\Http\Middleware;
+namespace Gentor\Speedy\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

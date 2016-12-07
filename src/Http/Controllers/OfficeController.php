@@ -1,12 +1,12 @@
 <?php
-namespace Rolice\Speedy\Http\Controllers;
+namespace Gentor\Speedy\Http\Controllers;
 
 use Input;
-use Rolice\Speedy\Components\Client;
-use Rolice\Speedy\Components\Param\Language;
-use Rolice\Speedy\Components\Result\OfficeEx;
-use Rolice\Speedy\Components\Result\Site;
-use Rolice\Speedy\Speedy;
+use Gentor\Speedy\Components\Client;
+use Gentor\Speedy\Components\Param\Language;
+use Gentor\Speedy\Components\Result\OfficeEx;
+use Gentor\Speedy\Components\Result\Site;
+use Gentor\Speedy\Speedy;
 
 class OfficeController extends Controller
 {

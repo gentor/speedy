@@ -1,12 +1,12 @@
 <?php
-namespace Rolice\Speedy;
+namespace Gentor\Speedy;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * SpeedyServiceProvider for Laravel
  *
- * @package    Rolice\Speedy
+ * @package    Gentor\Speedy
  */
 class SpeedyServiceProvider extends ServiceProvider
 {

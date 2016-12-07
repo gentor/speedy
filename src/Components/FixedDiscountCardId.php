@@ -1,5 +1,5 @@
 <?php
-namespace Rolice\Speedy\Components;
+namespace Gentor\Speedy\Components;
 
 class FixedDiscountCardId
 {

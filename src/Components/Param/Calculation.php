@@ -1,13 +1,13 @@
 <?php
-namespace Rolice\Speedy\Components\Param;
+namespace Gentor\Speedy\Components\Param;
 
 use Carbon\Carbon;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Rolice\Speedy\Components\ComponentInterface;
-use Rolice\Speedy\Components\Result\CourierService;
-use Rolice\Speedy\Components\Result\Site;
-use Rolice\Speedy\Traits\Serializable;
+use Gentor\Speedy\Components\ComponentInterface;
+use Gentor\Speedy\Components\Result\CourierService;
+use Gentor\Speedy\Components\Result\Site;
+use Gentor\Speedy\Traits\Serializable;
 
 class Calculation implements ComponentInterface
 {
